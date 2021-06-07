@@ -13,21 +13,25 @@ const UserDetails = () => {
             </span>
             <span className="username">
                 <div className="bindingImage">
-                    <img src={profileImage} width='28' height='28' alt="UserImage" style={{marginLeft:'41', padding:"4px"}}/>
-                    Marvin McKinney
+                    <img src={profileImage} alt="UserImage" style={{marginLeft:'41', fontSize:"28px", padding:"4px"}}/>
+                    <span style={{fontSize:"16px"}}>
+                        Marvin McKinney
+                    </span>
                 </div>
                 <img id="addStudentImage" src={addstudent} width='33.5' height='18' alt="Add user"></img>
             </span>
             <span className="studentCount">
-                    <i class="fas fa-user-circle" style={{marginLeft:'41', padding:"4px"}} ></i>
+                    <i class="fas fa-user-circle fa-lg" style={{marginLeft:'41', fontSize:"28px", padding:"4px"}} ></i>
                 125 Students
             </span>
             <div className="upcoming-activity">
                 <div className="bindingImage">
-                    <i class="fas fa-clock" style={{width:'28', height:'28', marginLeft:'41', padding:"4px"}}></i>
-                    Upcoming &lt;Activity&gt;<br/>
-                    Thu, 25th May <br/>
-                    12:00 PM - 12:00 PM
+                    <i class="fas fa-clock" style={{marginLeft:'41', fontSize:"28px", padding:"4px"}}></i>
+                    <span >
+                        Upcoming &lt;Activity&gt;<br/>
+                        Thu, 25th May <br/>
+                        12:00 PM - 12:00 PM
+                    </span>
                 </div>
                 <button className="view-button">View</button>
             </div>

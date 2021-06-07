@@ -22,7 +22,7 @@ export default function DashBoard() {
             <div className="tableHeading">
                 <div className="tableContent">
                     <span>MON
-                        <div style={{paddingTop:`10px`}}>
+                        <div style={{paddingTop:`10px`, width:"142px"}}>
                             <CardComponent type="homework"/>
                             <CardComponent type="class"/>
                             <CardComponent type="class"/>
@@ -32,7 +32,7 @@ export default function DashBoard() {
                         </div>
                     </span>
                     <span>TUE
-                    <div style={{paddingTop:`10px`}}>
+                        <div style={{paddingTop:`10px`, width:"142px"}}>
                             <CardComponent type="homework"/>
                             <CardComponent type="class"/>
                             <CardComponent type="class"/>
@@ -40,21 +40,21 @@ export default function DashBoard() {
                         </div>
                     </span>
                     <span>WED
-                    <div style={{paddingTop:`10px`}}>
+                        <div style={{paddingTop:`10px`, width:"142px"}}>
                             <CardComponent type="homework"/>
                             <CardComponent type="test"/>
                             <CardComponent type="test"/>
                         </div>
                     </span>
                     <span>THU
-                    <div style={{paddingTop:`10px`}}>
+                        <div style={{paddingTop:`10px`, width:"142px"}}>
                             <CardComponent type="class"/>
                             <CardComponent type="class"/>
                             <CardComponent type="test"/>
                         </div>
                     </span>
                     <span>FRI
-                    <div style={{paddingTop:`10px`}}>
+                        <div style={{paddingTop:`10px`, width:"142px"}}>
                             <CardComponent type="homework"/>
                             <CardComponent type="class"/>
                             <CardComponent type="class"/>
@@ -63,22 +63,23 @@ export default function DashBoard() {
                             <CardComponent type="test"/>
                         </div>
                     </span>
-                    <span>SAT<div style={{paddingTop:`10px`}}>
+                    <span>SAT
+                        <div style={{paddingTop:`10px`, width:"142px"}}>
                             <CardComponent type="homework"/>
                             <CardComponent type="class"/>
                             <CardComponent type="test"/>
-                        </div></span>
+                        </div>
+                    </span>
                     <span>SUN
-                    <div style={{paddingTop:`10px`}}>
+                        <div style={{paddingTop:`10px`, width:"142px"}}>
                             <CardComponent type="class"/>
                             <CardComponent type="class"/>
                             <CardComponent type="class"/>
                             <CardComponent type="test"/>
-                    </div>
+                        </div>
                     </span>
                 </div>
             </div>
-              
-        </div>
+        </div> 
     )
 }
