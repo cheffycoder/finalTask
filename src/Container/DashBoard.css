@@ -11,19 +11,42 @@
 .user-info{
     height: 190px;
     width: 380px;
+    padding: 20px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 
     background: #F6F6F6;
     border-radius: 11px;
 }
 
 .batchname{
-    width: 21px;
-    height: 19px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.username{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+
+.upcoming-activity{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.view-button{
+    height: 26px;
+    width: 98px;
+    border-radius: 5px;
+    border: 1.5px solid #0047B1;
+    margin-right: 10px;
 }
 
 .user-performance{
@@ -35,9 +58,11 @@
 }
 
 .loaders{
+    margin-top: 15px;
+    font-size: 12px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .activity-container{
@@ -55,8 +80,6 @@
 }
 
 
-
-
 .tableHeading{
     position: absolute;
     width: 1049px;
@@ -72,8 +95,6 @@
 }
 
 .tableContent{
-    margin-top: 130px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }

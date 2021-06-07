@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CardComponent({type}) {
     return(
-        <div style={{}}>
+        <div style={{margin:"5px"}}>
         {
             (type==="homework")?(
                 <div style={{border:`0.5px #939393 solid`,borderRadius:`4px`}}>
@@ -10,11 +10,11 @@ export default function CardComponent({type}) {
                         Homework
                      </div>
                      <div>
-                         <div>
-                             Shivam homework
+                         <div style={{padding:"3px"}}>
+                             Complete Homework
                           </div>
-                          <div style={{fontWeight:`500`}}>
-                             due to 12:00 PM 
+                          <div style={{fontWeight:`400`, fontSize:"12px", padding:"3px"}}>
+                            Due at 12:00 PM 
                           </div>
                      </div>   
                 </div>
@@ -29,11 +29,8 @@ export default function CardComponent({type}) {
                         Test
                      </div>
                      <div>
-                         <div>
-                             Shivam homework
-                          </div>
-                          <div style={{fontWeight:`500`}}>
-                             due to 12:00 PM 
+                          <div style={{fontWeight:`400`, fontSize:"12px", padding:"3px"}}>
+                            12:00AM - 12:00 PM 
                           </div>
                      </div>   
                 </div>
@@ -48,11 +45,11 @@ export default function CardComponent({type}) {
                         Class
                      </div>
                      <div>
-                         <div>
-                             Shivam homework
+                         <div style={{padding:"3px"}}>
+                             Test Due
                           </div>
-                          <div style={{fontWeight:`500`}}>
-                             due to 12:00 PM 
+                          <div style={{fontWeight:`400`, fontSize:"12px", padding:"3px"}}>
+                            12:00AM - 12:00 PM 
                           </div>
                      </div>   
                 </div>
