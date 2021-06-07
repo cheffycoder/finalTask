@@ -1,0 +1,79 @@
+.dashboard{
+    padding: 39px 158px;
+}
+
+
+.dashboard-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info{
+    height: 190px;
+    width: 380px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #F6F6F6;
+    border-radius: 11px;
+}
+
+.batchname{
+    width: 21px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-performance{
+    height: 190px;
+    width: 580px;
+
+    background: #F6F6F6;
+    border-radius: 11px;
+}
+
+.loaders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activity-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.line{
+    height: 3px;
+    background-color:  #939393;
+    margin: auto 10px;
+}
+
+
+
+
+.tableHeading{
+    position: absolute;
+    width: 1049px;
+    height: 27px;
+    left: 158px;
+    top: 319px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    background: #E2E2E2;
+    border-radius: 13.5px;
+}
+
+.tableContent{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
